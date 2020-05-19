@@ -9,8 +9,8 @@ from surprise import Reader
 from collections import defaultdict
 import numpy as np
 
-class MovieLens:
 
+class MovieLens(object):
     movieID_to_name = {}
     name_to_movieID = {}
     ratingsPath = '../ml-latest-small/ratings.csv'
